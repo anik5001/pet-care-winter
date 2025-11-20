@@ -1,0 +1,74 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://i.ibb.co.com/x86RgtPJ/dog1.jpg",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "https://i.ibb.co.com/pjsNLLZk/dog2.jpg",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Heated Pet Bed Rental",
+    "providerName": "WarmPaws Haven",
+    "providerEmail": "care@warmpaws.com",
+    "price": 15,
+    "rating": 4.7,
+    "slotsAvailable": 6,
+    "description": "Soft, heated pet beds available for rent to ensure warmth and comfort all night long.",
+    "image": "https://i.ibb.co.com/DgYFnqJ8/dog3.webp",
+    "category": "Comfort"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Winter Nutrition Consultation",
+    "providerName": "HealthyTail Nutrition",
+    "providerEmail": "support@healthytail.com",
+    "price": 20,
+    "rating": 4.9,
+    "slotsAvailable": 5,
+    "description": "Personalized diet plan to boost your pet’s immunity and energy during the winter season.",
+    "image": "https://i.ibb.co.com/C3Nk7b2k/dog4.jpg",
+    "category": "Health"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Cold Weather Walk Assistance",
+    "providerName": "PawWalkers Team",
+    "providerEmail": "walks@pawwalkers.com",
+    "price": 18,
+    "rating": 4.6,
+    "slotsAvailable": 8,
+    "description": "Safe and short outdoor walks with proper winter gear and paw protection for your pets.",
+    "image": "https://i.ibb.co.com/8LgCbN1H/dog5.png",
+    "category": "Outdoor"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Warm Bath & Blow-Dry Package",
+    "providerName": "FluffyCare Spa",
+    "providerEmail": "info@fluffycare.com",
+    "price": 35,
+    "rating": 5.0,
+    "slotsAvailable": 2,
+    "description": "Gentle warm bath followed by a blow-dry to keep your pet’s coat fresh and cozy during winter.",
+    "image": "https://i.ibb.co.com/j9Gz25QZ/dog6.webp",
+    "category": "Spa"
+  }
+]

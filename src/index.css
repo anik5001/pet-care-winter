@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.active {
+  color: blue;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.navbar li {
+  font-weight: 600;
+}
+.navbar li :hover {
+  text-decoration: underline;
+}
