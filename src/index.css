@@ -2,7 +2,7 @@
 @plugin "daisyui";
 
 .active {
-  color: blue;
+  color: rgb(191, 255, 0);
   text-decoration: underline;
   font-weight: 600;
 }

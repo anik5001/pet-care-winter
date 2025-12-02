@@ -46,7 +46,7 @@ const HeroSlider = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="w-full max-w-6xl mx-auto rounded-2xl shadow-lg"
+        className="w-full max-w-7xl mx-auto rounded-2xl shadow-lg"
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>

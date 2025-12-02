@@ -11,6 +11,8 @@ import Loading from "../Components/Loading";
 import PrivateRoute from "../Provider/PrivateRoute";
 import UpdateProfilePage from "../Pages/UpdateProfilePage";
 import ForgetPasswordPage from "../Pages/ForgetPasswordPage";
+import AboutUs from "../Pages/AboutUs";
+import Contact from "../Pages/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -35,6 +37,14 @@ export const router = createBrowserRouter([
         hydrateFallbackElement: <Loading></Loading>,
       },
       {
+        path: "/about",
+        Component: AboutUs,
+      },
+      {
+        path: "/contact",
+        Component: Contact,
+      },
+      {
         path: "/profile",
         Component: Profile,
       },
@@ -52,11 +62,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/service/details/:id",
-        element: (
-          <PrivateRoute>
-            <ServiceDetailsPage></ServiceDetailsPage>
-          </PrivateRoute>
-        ),
+        element: <ServiceDetailsPage></ServiceDetailsPage>,
         loader: () => fetch("/petCareData.json").then((res) => res.json()),
         hydrateFallbackElement: <Loading></Loading>,
       },

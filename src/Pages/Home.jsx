@@ -20,7 +20,7 @@ const Home = () => {
           <h1 className="animate__animated animate__bounce animate__delay-2s text-3xl text-center  text-blue-700 font-bold pt-5">
             Popular Winter Care Services
           </h1>
-          <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-7  sm:py-5 animate__backInDown">
+          <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-7  sm:py-5 animate__backInDown">
             {data.map((service) => (
               <ServicesCard
                 key={service.serviceId}

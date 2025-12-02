@@ -25,8 +25,8 @@ const Navbar = () => {
       });
   };
   return (
-    <div className="bg-base-100 shadow-sm ">
-      <div className="w-11/12 mx-auto navbar">
+    <div className="sm:w-11/12 sm:mx-auto bg-primary text-white shadow-sm  rounded-2xl sm:rounded-full sticky -top-1 z-50">
+      <div className=" navbar">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -48,7 +48,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-50 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-primary rounded-box z-50 mt-3 w-52 p-2 shadow"
             >
               <li>
                 <NavLink to="/">Home</NavLink>
@@ -56,8 +56,16 @@ const Navbar = () => {
               <li>
                 <NavLink to="/services">Services</NavLink>
               </li>
+              {user && (
+                <li>
+                  <NavLink to="/profile">My Profile</NavLink>
+                </li>
+              )}
               <li>
-                <NavLink to="/profile">My Profile</NavLink>
+                <NavLink to="/about">About Us</NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
           </div>
@@ -77,8 +85,16 @@ const Navbar = () => {
             <li>
               <NavLink to="/services">Services</NavLink>
             </li>
+            {user && (
+              <li>
+                <NavLink to="/profile">My Profile</NavLink>
+              </li>
+            )}
             <li>
-              <NavLink to="/profile">My Profile</NavLink>
+              <NavLink to="/about">About Us</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>

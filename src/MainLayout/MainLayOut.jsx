@@ -7,9 +7,9 @@ import Loading from "../Components/Loading";
 const MainLayOut = () => {
   const { state } = useNavigation();
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className=" flex flex-col min-h-screen">
       <Navbar></Navbar>
-      <div className="flex-1 bg-blue-50">
+      <div className="flex-1 ">
         {state == "loading" ? <Loading></Loading> : <Outlet></Outlet>}
       </div>
       <Footer></Footer>

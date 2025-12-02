@@ -70,5 +70,29 @@
     "description": "Gentle warm bath followed by a blow-dry to keep your pet’s coat fresh and cozy during winter.",
     "image": "https://i.ibb.co.com/j9Gz25QZ/dog6.webp",
     "category": "Spa"
+  },
+  {
+    "serviceId": 7,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://i.ibb.co.com/x86RgtPJ/dog1.jpg",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 8,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "https://i.ibb.co.com/pjsNLLZk/dog2.jpg",
+    "category": "Grooming"
   }
 ]
